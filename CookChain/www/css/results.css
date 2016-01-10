@@ -1,0 +1,26 @@
+/* Styles for search results */
+.results {
+  margin-top: 0px;
+}
+.results .search-results {
+	
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.results img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.result {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.result-desc {
+	color: white;
+	text-shadow: 0 1px 0 black;
+}

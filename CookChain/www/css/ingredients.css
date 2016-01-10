@@ -1,0 +1,20 @@
+/* Styles for ingredient dropdown */
+
+  .main-section{
+  }
+  #ingredients-container{
+  	overflow: auto;
+  	height: 79vh;
+  }
+  .row.collapse{
+  	height: 37px;
+  }
+  .small-10.columns{
+  	height: 37px;
+  }
+  .biginput{
+  	margin-bottom: 0px;
+  }
+  #addIngredient{
+  	margin-bottom: 0px;
+  }

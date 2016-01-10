@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/topbar.css">
+    <script src="js/globals.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+    <div class="ios-nav"></div>
+    <!-- Navigation -->
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <!--nav loaded in with jquery-->
+        <div id="nav"></div>
+        <!--NavAside loaded in with jquery-->
+        <div id="NavAside"></div>
+
+        <section class="main-section results">
+          <!-- content goes here -->
+          
+          <div class="row">
+            <div class="center">
+              <img src = "img/logo.png"></img>
+            </div>
+
+            <fieldset>
+              <legend>Login</legend>
+              <form>
+                <div class="small-12 columns">
+                  <div class="alert-container"></div>
+                  <div class="email">
+                    <label for="email">Email</label>
+                    <input id="email" class="radius" type="email"></input>
+                  </div>
+                  <div class="password">
+                    <label for="password">Password</label>
+                    <input id="password" class="radius" type="password"></input>
+                  </div>
+                  <div id="login" class="button expand" value="Login">Log in</div>
+                  <a href="register.html"><div class="button expand success" value="Register">Register</div></a> 
+                </div>
+              </form>
+            </fieldset>
+          </div>
+
+        </section>
+
+      <a class="exit-off-canvas"></a>
+
+      </div>
+    </div><!-- /navigation -->
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+      $(document).foundation();
+      $('#nav').load("nav.html");
+      $('#NavAside').load('NavAside.html');
+
+    </script>
+  </body>
+</html>

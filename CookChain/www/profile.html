@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="css/results.css">
+    <script src="js/globals.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+
+    
+  </head>
+  <body>
+    <div class="ios-nav"></div>
+    <!-- Navigation -->
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <!--nav loaded in with jquery-->
+        <div id="nav"></div>
+        <!--NavAside loaded in with jquery-->
+        <div id="NavAside"></div>
+
+        <section class="main-section results" style="margin:20px;">
+          <!-- content goes here -->
+          <div id="info" class="row">
+            <div class="small-6 columns">
+              <div class="panel radius">
+                <img src="img/logo.png" />
+              </div>
+            </div>
+            <div class="small-6 columns">
+              <div id="email-section" class="row">
+                <label for="email">Email:</label>
+                  <div id="email"></div>
+              </div>
+              <div id="password" class="row">
+                <label for="password">Password:</label>
+                  <p><span>Change   <img src="img/edit.png"></span></p>
+              </div>
+            </div>
+          </div>
+          <div id="ingredents" class="row">
+              <div class="small-6 columns">
+                <div class="panel radius">
+                  <img src="img/ingredents.png">
+                </div>
+              </div>
+              <div id="ingredents-list" class="row">
+                <label for="ingredents-list">Ingredents List:</label>
+                  <div id="ingredentslist1">Apple</div>
+                  <div id="ingredentslist2">Banana</div>
+                  <div id="ingredentslist3">Carrot</div>
+                  <div id="ingredentslist4">Dark Chocolate</div>
+                  <div id="ingredentslist5">Click to see more</div>
+              </div>
+          </div>
+          <div id="recipes" class="row">
+              <div class="small-6 columns">
+                <div class="panel radius">
+                  <img src="img/recipes.png">
+                </div>
+              </div>
+              <div id="recipes-list" class="row">
+                <label for="recipes-list">Recipes List:</label>
+                  <div id="recipeslist1">Apple Pie</div>
+                  <div id="recipeslist2">Braised Beff</div>
+                  <div id="recipeslist3">Cake</div>
+                  <div id="recipeslist4">Danish Food</div>
+                  <div id="recipeslist5">Click to see more</div>
+              </div>
+          </div>
+        </section>
+
+      <a class="exit-off-canvas"></a>
+
+      </div>
+    </div><!-- /navigation -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      $('#nav').load("nav.html");
+      $('#NavAside').load("NavAside.html");
+    </script>
+  </body>
+</html>

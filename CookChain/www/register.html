@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="css/results.css">
+    <script src="js/globals.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+
+    <script src="js/vendor/jquery.js"></script>
+  </head>
+  <body>
+    <div class="ios-nav"></div>
+    <!-- Navigation -->
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+        <!--nav loaded in with jquery-->
+        <div id="nav"></div>
+        <!--NavAside loaded in with jquery-->
+        <div id="NavAside"></div>
+
+        <section class="main-section results">
+          <!-- content goes here -->
+          
+          <div class="row">
+            <fieldset>
+              <legend>Register</legend>
+              <form data-abide>
+                <div id="form-container" class="small-12 columns">
+                  <div class="email">
+                    <label for="email">Email</label>
+                    <input id="email" class="radius" type="email" required></input>
+                    <small class="error radius" data-error-message>An email address is required.</small>
+                  </div>
+                  <div class="password">
+                    <label for="password">Password</label>
+                    <input id="password" class="radius" type="password"  required></input>
+                    <small class="error radius" data-error-message>Password is required</small>
+                  </div>
+                  <div class="confirmPassword">
+                    <label for="confirmPassword">Password</label>
+                    <input id="confirmPassword" class="radius" type="password" required data-equalto="password" name="password"></input>
+                    <small class="error radius" data-error-message>Passwords must match.</small>
+                  </div>
+                  <div id="alert-container">
+                  </div>                      
+                  <button id="register" class="expand success" type="button">Submit</button>
+                  <div class="row text-center">
+                    <img id='loading' style="display: none" src="img/loading.gif" />
+                  </div>
+                </div>
+              </form>
+            </fieldset>
+          </div>
+
+        </section>
+
+      <a class="exit-off-canvas"></a>
+
+      </div>
+    </div><!-- /navigation -->
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/register.js"></script>
+    <script>
+      $(document).foundation();
+      $('#nav').load("nav.html");
+      $('#NavAside').load('NavAside.html');
+
+    </script>
+  </body>
+</html>
