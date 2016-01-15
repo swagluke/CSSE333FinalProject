@@ -1,20 +1,43 @@
 \documentclass{article}
-
+\usepackage[T1]{fontenc}
+\usepackage{titling}
 \usepackage[utf8]{inputenc}
+\usepackage{caption}
  
-\title{CookChain \\ Problem Statement}
+\title{\textbf{ Problem Statement  \\ CookChain}}
+\setlength{\droptitle}{10em}
 \author{Ashlee Boyer \\Emma Rogge \\ Lujia Zhang}
-\date{01/10/2016}
- 
-\begin{document}
-\renewcommand*\contentsname{Table of Contents} 
-\maketitle
- 
-\tableofcontents
+\date{01/15/2016}
 
+
+\begin{document}
+\maketitle
+\renewcommand*\contentsname{Table of Contents} 
+\newpage
+\tableofcontents
+\clearpage
 \section{Version Information}
+\begin{table}[h]
+\centering
+
+\caption*{Version Information}
+\label{my-label}
+\begin{tabular}{|l|l|l|}
+\hline
+Version & Date       & Comments      \\ \hline
+1.0     & 01/15/2016 & Initial Draft \\ \hline
+        &            &               \\ \hline
+        &            &               \\ \hline
+\end{tabular}
+\end{table}
 \section{Executive Summary}
+This document is the problem statement for Rose-Hulman Institute of Technol- ogy CSSE 333 final project CookChain. This problem statement describes the recipe and cooking problem that our project will solve. It has been created in conjunction with an Entity Relationship (ER) diagram and Relational Schema. Introduction covers the problem our project trying to solve. This document also contains a high level problem summary, a detailed problem statement, and some information about the stakeholders. The detailed problem statement covers the function, form, economy and time side of our project.
 \section{Introduction}
+This document describes project CookChain, following by ER diagram, rela- tional schema, data analyst, milestone reports and final presentation. ER dia- gram, relational schema and data analyst will reserve the need for showing how data relates in CookChain database. Milestone reports show periodic progress of our development.
+\newline
+Our group uses the relational schema to describe the database based upon the ER diagram. Primary key, and foreign key constraints are included inside the relational schema.
+\newline
+During the final presentation, our group will release the beta version web app for IPhone, Android and computer. Users will allow to test and use the web app after the installation. We will demo the web app and talk about the developing process.
 \section{Main Content}
 \subsection{High Level Problem Summary}
 \subsection{Detailed Problem Statement}
@@ -26,6 +49,7 @@
 \addcontentsline{toc}{section}{References}
  
 \begin{thebibliography}{9}
+\iffalse
 \bibitem{latexcompanion} 
 Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
 \textit{The \LaTeX\ Companion}. 
@@ -40,6 +64,7 @@ Annalen der Physik, 322(10):891–921, 1905.
 \bibitem{knuthwebsite} 
 Knuth: Computers and Typesetting,
 \\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\fi
 \end{thebibliography}
  
 
