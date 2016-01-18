@@ -3,7 +3,8 @@
 \usepackage{titling}
 \usepackage[utf8]{inputenc}
 \usepackage{caption}
- 
+\usepackage{graphicx}
+
 \title{\textbf{ Problem Statement  \\ CookChain}}
 \setlength{\droptitle}{10em}
 \author{Ashlee Boyer \\Emma Rogge \\ Lujia Zhang}
@@ -40,12 +41,85 @@ Our group uses the relational schema to describe the database based upon the ER 
 During the final presentation, our group will release the beta version web app for IPhone, Android and computer. Users will allow to test and use the web app after the installation. We will demo the web app and talk about the developing process.
 \section{Main Content}
 \subsection{High Level Problem Summary}
+\subsubsection{Elevator statement}
+Most young adults and college students have no idea what to cook and how to cook them. And there is no recipe websites or apps that allow users to search based on ingredients. CookChain is aiming for helping users to find recipes based on their personal preference and ingreidents they have.
+\subsubsection{Primary Success Criteria}
+Our primary goal is to develop a web app CookChain that allows users to search recipes based on ingredients. The project's success depends upon having a usable database and login system.
+\subsubsection{Scope}
+Within Scope: \newline
+1. A functional web app that allows users to creates accounts.\newline
+2. Search based on ingredients. \newline
+3. Search filter.\newline
+Outside Scope: \newline
+1. Grocery, and ingredients analyst.\newline
+2. Grocery deliver.
+3. Social Media Sharing
 \subsection{Detailed Problem Statement}
+When deciding to cook a meal, many people face the problem of not knowing what to cook or what they can cook. CookChain aims to fix this through a simple and easy to use web interface. Users will be able to log on and input ingredients available and have a list of possible recipes to make. The users will have the option of either creating an account for the save their info or they can use the site as is with no saved data. Further implementations will include filtering options that will allow users to filter the results to fit their preferences, this can range from what style of dish they are in the mood for to calorie count.
+\clearpage
 \subsubsection{Function}
+Function prioritizes is sort from to least from top to bottom.
+\begin{table}[h]
+\centering
+\caption*{Function}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Function Name:}                                                                   & \textbf{Description}                                                                                                                                                                                                                                                                                                                                                                                                                                   \\ \hline
+\begin{tabular}[c]{@{}l@{}}Search By\\ Ingredients\end{tabular}                           & \begin{tabular}[c]{@{}l@{}}User inputs and saves their currently available ingredients\\ and  selects the search button then a list of possible recipes\\ populate the screen.\end{tabular}                                                                                                                                                                                                                                                               \\ \hline
+\begin{tabular}[c]{@{}l@{}}User Account\\ Features (Login /\\ Logout / etc.)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Users can log into the system so that they can keep track of\\ their own specific information (e.g. preference, their currently\\ available ingredients, etc.). And the information will stay\\ when logging out and be able to be updated when they\\ login back again.\end{tabular}                                                                                                                                         \\ \hline
+Account creation                                                                          & Users can create accounts on the site.                                                                                                                                                                                                                                                                                                                                                                                                                 \\ \hline
+\begin{tabular}[c]{@{}l@{}}Recipe (Search)\\ Filtering\end{tabular}                       & \begin{tabular}[c]{@{}l@{}}Users can set different filter when they search for different\\ recipes. Users can search based on amount of time that\\ requires for cooking this meal. The amount of money that\\ requires for cooking this recipe can also be a filter. Based \\ on different demand for calories and nutrition, CookChain\\ can give different result. Users can filter out recipes\\ depending on different allergy they have.\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}l@{}}Social Media\\ Sharing\end{tabular}                            & \begin{tabular}[c]{@{}l@{}}User use the built-in functionality to take photo of the meal\\ that s/he makes, which in turn can be shared on social media\\ sites like Facebook, Instagram,\\ Twitter, and so on.\end{tabular}                                                                                                                                                                                                                             \\ \hline
+\begin{tabular}[c]{@{}l@{}}Available\\ Ingredients saved\end{tabular}                     & \begin{tabular}[c]{@{}l@{}}Users who have an account will have their list of available \\ingredients saved when entered\end{tabular}                                                                                                                                                                                                                                                                                                                   \\ \hline
+\end{tabular}
+\end{table}
 \subsubsection{Form}
+Availability: \newline
+1.Web based, work for both IPhone and Andriod platfrom. \newline
+2. Can be accessed through anywhere with internet connection. \newline
+Usability: \newline
+1.Fast response times and lookup times \newline
+2. Well defined and friendly user interface.\newline
+3. Useful help text and error messages.\newline
+Security:\newline
+Security of database is extremely important- our system will support:\newline
+1.Username, password cross check.\newline
+2.Encrypt login.\newline
+3.Encrypt account data store.\newline
+Maintainability:\newline
+1.System must be extremely easy to maintain. \newline
+2.Need store all the recipes data and ingredients data. \newline
+3.Reliable database and system reboot.
 \subsubsection{Economy}
+CookChain is aiming for the big data marktet due to huge user data about grocery lists, ingreidents list and perosonal cooking/eating preference. Most supermarkets will love to buy all the data from CookChain. For future grocery shopping and deliver fucntion, once users see how much convenience the system offers, there will be a very high demand for such a service for both users and supermarkets.
 \subsubsection{Time}
+Past:\newline
+People tend to use recipes books in the past to figure out what they want to cook and what ingredients they want. But this process costs a lot of time and energy.\newline
+Current:\newline
+There are a lot of recipes websites and books at the market. However, most of them are focused on recipes instead of ingredients. So it's really hard to find out what recipes can be made based on ingredients users have. CookChain web app is created to solve this problem by letting users to input ingredients then provide recipes list based on input ingredients.\newline
+Future:\newline
+CookChain can develop into a real software company that works closely with big supermarkets such as Walmart, Kroger, Meijer, etc. CookChain web app will keep track of the personal ingreidents list and grocery delivery when it's needed.
+\clearpage
 \subsection{Key Stakeholders}
+\begin{table}[h]
+\centering
+\caption*{Key Stakeholders}
+\label{my-label}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Stakeholder\\ Name:\end{tabular}} & \textbf{Description}                                                                                                                                                                                     \\ \hline
+Young Adults                                                         & \begin{tabular}[c]{@{}l@{}}Young Adults are end users for the website. They would use the \\ CookChain website to find a recipe for their desired food assisting \\them to cook by themselves.\end{tabular} \\ \hline
+Families                                                             & \begin{tabular}[c]{@{}l@{}}Families use the website to find recipes for some new food meeting \\ their nutrition facts with the ingredients they have.\end{tabular}                                       \\ \hline
+\begin{tabular}[c]{@{}l@{}}Big Data\\ Brokers\end{tabular}           & \begin{tabular}[c]{@{}l@{}}Big Data Brokers invest money in CookChain to get the information\\ about users’ data, such as ingredients usage and food preferences.\end{tabular}                           \\ \hline
+\begin{tabular}[c]{@{}l@{}}Project\\ Manager\end{tabular}            & \begin{tabular}[c]{@{}l@{}}Project Manager keeps track of the project progress, assigns work \\to project developers, and gives advice to the project developers.\end{tabular}                           \\ \hline
+Professor                                                            & Professors invest time and provide training for project developers.                                                                                                                                      \\ \hline
+\end{tabular}
+\end{table}
+\section{ER Diagram}
+\includegraphics[width=15cm, height=10cm]{1}
+
+\newpage
 \addcontentsline{toc}{section}{References}
  
 \begin{thebibliography}{9}
