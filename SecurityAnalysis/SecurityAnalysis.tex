@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{titling}
+\usepackage[utf8]{inputenc}
+\usepackage{caption}
+\usepackage{graphicx}
+
+\title{\textbf{Security and Data analysis  \\ CookChain}}
+\setlength{\droptitle}{10em}
+\author{Ashlee Boyer \\Emma Rogge \\ Lujia Zhang}
+\date{01/19/2016}
+
+
+\begin{document}
+\maketitle
+\renewcommand*\contentsname{Table of Contents} 
+\newpage
+\tableofcontents
+\clearpage
+\section{Privacy Analysis}
+
+\section{Security Analysis}
+The main security concern is that personal information getting leak since each CookChain user has so much personal such as daily grocery list, ingredients list, eating preference and food allergies. All these information is highly sensitive since CookChain account is so closely associated with users' personal life. So the biggest security restrictions for CookChain would be users can only access their own account. Each users account should be highly secured. There will be two level securities to prevent hacking and account leaking. Users' username and password will both be encrypted and linked to each other with a complicated hashing relation. Each account has an account ID. So whenever users added or change data of their account, database will confirm the account ID first then add/change data into the related account. For privacy reason, no one can look at sepecific account data. Even developer and system administrator can only look at the big database table with encrypted usersname and other sensitive personal information.
+\section{Entity Integrity Analysis}
+
+\newpage
+\addcontentsline{toc}{section}{References}
+ 
+\begin{thebibliography}{9}
+\iffalse
+\bibitem{latexcompanion} 
+Michel Goossens, Frank Mittelbach, and Alexander Samarin. 
+\textit{The \LaTeX\ Companion}. 
+Addison-Wesley, Reading, Massachusetts, 1993.
+ 
+\bibitem{einstein} 
+Albert Einstein. 
+\textit{Zur Elektrodynamik bewegter K{\"o}rper}. (German) 
+[\textit{On the electrodynamics of moving bodies}]. 
+Annalen der Physik, 322(10):891–921, 1905.
+ 
+\bibitem{knuthwebsite} 
+Knuth: Computers and Typesetting,
+\\\texttt{http://www-cs-faculty.stanford.edu/\~{}uno/abcde.html}
+\fi
+\end{thebibliography}
+ 
+
+ 
+\end{document}
