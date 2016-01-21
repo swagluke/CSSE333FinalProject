@@ -38,8 +38,9 @@ f.	Saves Table: UserID and RecipeID are foreign keys referenced from the User an
 g.	Contains Table: RecipeID and IngredientID are foreign keys referenced from the Recipe and Ingredient tables, respectively. The Contains relationship describes when an Ingredient is contained by some Recipe. No attributes of these tables may be null in any instance.
 
 \section{Referential Integrity Analysis}
-	Upon delete, all operations will cascade. For example, if a User is removed from the database, all relationships having to do with a UserID must also be deleted. These relationships include the isAllergicTo, Stores, Uses, Saves and Credit Card Tables. If the relationships are not deleted, there will be null values for UserID which is not allowed.
-	Updates to tables will cascade and also reject, but only if the desired operation creates null values where they are not allowed. For example, if a UserID was updated in the User table, then all the instanaces of UserID in other tables would be null, which is never allowed in those tables.
+Upon delete, all operations will cascade. For example, if a User is removed from the database, all relationships having to do with a UserID must also be deleted. These relationships include the isAllergicTo, Stores, Uses, Saves and Credit Card Tables. If the relationships are not deleted, there will be null values for UserID which is not allowed.
+
+Updates to tables will cascade and also reject, but only if the desired operation creates null values where they are not allowed. For example, if a UserID was updated in the User table, then all the instanaces of UserID in other tables would be null, which is never allowed in those tables.
 
 \section{Business Rule Integrity Analysis}
 	When a User consumes or disposes of any Ingredients, they will need to specify so using their profile. This will provide the most accurate results when searching for Recipes in the database. For the same reason, a User should update their storage details when they purchase or add Ingredients to their storage. A User is also responsible for specifying what Ingredients they are allergic to. Cook Chain does not claim any responsibility to incidents that follow a User selecting a Recipe that may contain an Ingredient they are allergic to if the User has not provided the proper information.
