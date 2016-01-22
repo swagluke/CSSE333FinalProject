@@ -6,7 +6,7 @@
 \usepackage{graphicx}
 \usepackage{indentfirst}
 
-\title{\textbf{Security and Data analysis  \\ CookChain}}
+\title{\textbf{Security and Data Analysis  \\ CookChain}}
 \setlength{\droptitle}{10em}
 \author{Ashlee Boyer \\Emma Rogge \\ Lujia Zhang}
 \date{01/19/2016}
@@ -19,17 +19,23 @@
 \tableofcontents
 \clearpage
 \section{Privacy Analysis}
+The CookChain database will contain some information that requires sensitive treatment due to its personal nature. Other data within the database is not personal and is of a public nature. 
 
+Information considered private, and therefore not accessible to other users, includes the user's name, the user's password, and the user's credit card information. Additionally, the user may choose whether their queue of recipes and ingredients is private (viewing is restricted only to them), or public by invitation (a special link can be emailed by the user allowing others to view either their recipes or their ingredient list). Allergy information is also private, but can be shared in the same manner by the user.
+
+Information that is not private includes recipe information, which is publicly available to all users of CookChain. Since each recipe is available to any users, the recipes are not protected by encryption or other restriction, except that they cannot be accessed without a user account. 
 \section{Security Analysis}
-The main security concern is that personal information getting leak since each CookChain user has so much personal such as daily grocery list, ingredients list, eating preference and food allergies. All these information is highly sensitive since CookChain account is so closely associated with users' personal life. So the biggest security restrictions for CookChain would be users can only access their own account. Each users account should be highly secured. There will be two level securities to prevent hacking and account leaking. Users' username and password will both be encrypted and linked to each other with a complicated hashing relation. Each account has an account ID. So whenever users added or change data of their account, database will confirm the account ID first then add/change data into the related account. For privacy reason, no one can look at sepecific account data. Even developer and system administrator can only look at the big database table with encrypted usersname and other sensitive personal information.
+The main security concern is any potential leaking of personal information because each CookChain user account contains primarily personal data, such as the user's daily grocery list, ingredients list, eating preferences and food allergies. All this information is highly sensitive since a CookChain account is so closely associated with the user's personal life. The most important security feature aims to prevent anyone other than the user from accessing that particular user's account.
+
+Each user's account should be highly secured by two levels of security to prevent hacking and account leaking. First, both the user's username and password will be encrypted and linked to each other with a complicated hashing relation. Additionally, each account has an account ID. When users add or change data related to their account, the CookChain database will first confirm the account ID then add or change data corresponding to the related account. For privacy reasons, no individual will have access to any specific account's data or accountID. Even CookChain's developer team and system administrator can only look at the overall database table with encrypted usernames and other sensitive personal information.
 \section{Entity Integrity Analysis}
-a.	User Table: The UserID is the primary key for this table and an nvarchar with the maximum length of 15. Name is a 30 character nvarchar. Password is a 10 character nvarchar. No attributes of this table can be null.
+a.	User Table: The UserID is the primary key for this table and an nvarchar with the maximum length of 15. Name is a 30 character nvarchar. The password is a 10 character nvarchar. No attributes of this table can be null.
  
-b.	Credit Card Table: The Number attribute is the unique primary key of this table which is an integer value. The UserID is a foreign key referenced from the User table. The Code attribute is an integer value for the security code located on the credit card. Type is an nvarchar which holds values such as “MasterCard”, “Visa”, or “American Express.” ExpDate is an nvarchar type which represents the month and year of when the credit card will expire. No attributes in this table can be null.
+b.	Credit Card Table: The Number attribute is the unique primary key of this table which is an integer value. The UserID is a foreign key referenced from the User table. The Code attribute is an integer value for the security code located on the credit card. The Type attribute is an nvarchar which holds values such as “MasterCard”, “Visa”, or “American Express.” ExpDate is an nvarchar type which represents the month and year of when the credit card will expire. No attributes in this table can be null.
 
-c.	Recipe Table: RecipeID is a unique integer value used to identify every Recipe. The Author attribute is nvarchar with a maximum length of 30 characters. Time is of type time which stores when the recipe was created by the author. The FilePath is an nvarchar used to store the location of the recipe. Only the Author and Time attributes may be null in this table.
+c.	Recipe Table: RecipeID is a unique integer value used to identify every Recipe. The Author attribute is nvarchar with a maximum length of 30 characters. The Time attribute is of type time which stores when the recipe was created by the author. The FilePath is an nvarchar used to store the location of the recipe. Only the Author and Time attributes may be null in this table.
 
-d.	Ingredient Table: IngredientID is a unique integer value used to identify different Ingredients. The Name is an nvarchar of maximum length 20 characters. Provenance is also a 20 character nvarchar to store the origination of the ingredient. Quantity is an integer value which keeps track of how many of the ingredient a user has in their storage. Only the Provenance attribute may be null in this table.
+d.	Ingredient Table: IngredientID is a unique integer value used to identify different Ingredients. The Name is an nvarchar of maximum length 20 characters. Provenance is also a 20 character nvarchar to store the purchase location and date of the ingredient (for instance, "Kroger, 1/21"). Quantity is an integer value which keeps track of how many of the ingredient a user has in their storage. Only the Provenance attribute may be null in this table.
 
 e.	IsAllergicTo, Stores, and Uses Tables: UserID and IngredientID are both foreign keys referenced from the User and Ingredient tables, respectively. IsAllergicTo describes the relationship where a User is allergic to an Ingredient. Stores describes when a User has add an Ingredient to their storage. Uses describes when a User has used or removed an Ingredient from their storage. No attributes of these tables may be null in any instance.
 
