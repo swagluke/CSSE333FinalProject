@@ -87,11 +87,13 @@ $(function(){
 	}
 
 	function setRecipes(res) {
-		console.log(res['content']);
-		var ingredients = res['content'];
+		//console.log(res['content']);
+		//var ingredients = res['content'];
 		//var list1 = ["beef chuck and blade", "salt", "onion", "chicken", "egg"];
 		//var list2 = ["flour", "tofu", "olive oil", "coconut"];
-		var list1 = ["chicken","beef chuck and blade"];
+		//var list1 = ["chicken","beef chuck and blade"];
+		var ingredients = ['chicken'];
+		var list1 = ["chicken"];
 		var list2 = ["tofu"];
 		if(ingredients.containsAll(list1)) {
 			RecipesList1();

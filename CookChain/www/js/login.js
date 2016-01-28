@@ -21,7 +21,7 @@ $(function(){
         //alert("Email: " + data['email'] + "\nPassword: " + data['pass']);
             
         $.ajax({
-            url: domain + '/user/login',
+            url: domain + '/login',
             type: 'POST',
             data: data, //might need to change 
             success: loginResponse

@@ -1,0 +1,5 @@
+ssh -i roggeekKeyCode.pem ubuntu@ec2-54-68-254-118.us-west-2.compute.amazonaws.com
+chmod 400 roggeekKeyCode.pem
+
+cd CookChain
+python home.py
