@@ -1,0 +1,1087 @@
+IngredientID,Name
+1,acidulated water
+2,ackee
+3,acorn squash 
+4,aduki beans 
+5,agar-agar 
+6,ale
+7,alfalfa sprouts
+8,allspice 
+9,almond 
+10,almond essence 
+11,almond extract 
+12,amaranth 
+13,amaretti 
+14,anchovy
+15,anchovy essence
+16,angelica 
+17,angostura bitters
+18,anise
+19,apple
+20,apple chutney
+21,apple juice
+22,apple sauce
+23,apricot
+24,apricot jam
+25,arborio rice 
+26,arbroath smokie
+27,argan oil
+28,arrowroot
+29,artichoke
+30,asafoetida 
+31,asparagus
+32,aubergine
+33,avocado
+34,bacon
+35,bagel
+36,baguette
+37,baked beans
+38,baking
+39,baking powder
+40,balsamic vinegar
+41,bamboo shoots
+42,banana
+43,banana bread
+44,barbary duck
+45,barbecue sauce
+46,barley
+47,basil
+48,basmati rice
+49,bay boletes
+50,bay leaf
+51,bean
+52,beansprouts
+53,bechamel sauce
+54,beef
+55,beef consomme
+56,beef dripping
+57,beef mince
+58,beef ribs
+59,beef rump
+60,beef sausage
+61,beef stock
+62,beef tomato
+63,beer
+64,beetroot
+65,berry
+66,best end
+67,betel leaves
+68,beurre manie
+69,bicarbonate of soda
+70,bilberries
+71,birds-eye chillies
+72,biscotti
+73,biscuit
+74,blachan
+75,black beans
+76,black bream
+77,black eyed bean
+78,black pepper
+79,black pudding
+80,black sesame seeds
+81,black treacle
+82,blackbean sauce
+83,blackberry
+84,blackcurrant
+85,blackcurrant juice driblini
+86,blood orange
+87,blueberry
+88,boar
+89,bok choi
+90,bonito
+91,borage
+92,borlotti bean
+93,bouquet garni
+94,beef braising steak
+95,bramley apple
+96,bran
+97,brandy
+98,brandy butter
+99,brandy snaps
+100,bratwurst
+101,brazil nut
+102,bread
+103,bread roll
+104,bread sauce
+105,breadcrumbs
+106,breadfruit
+107,breadsticks
+108,bresaola
+109,brie cheese
+110,brill
+111,brioche
+112,beef brisket
+113,broad beans
+114,broccoli
+115,broth
+116,brown bread
+117,brown lentil
+118,brown rice
+119,brown sauce
+120,brown shrimp
+121,brown sugar
+122,brussels sprouts
+123,buckwheat
+124,buckwheat flour
+125,bulgur wheat
+126,bun
+127,beef burger
+128,butter
+129,butter bean
+130,buttercream icing
+131,butterhead lettuce
+132,buttermilk
+133,butternut squash
+134,cabbage 
+135,caerphilly cheese 
+136,cake
+137,calasparra rice 
+138,calvados
+139,camembert cheese
+140,campagne loaf 
+141,candied peel
+142,cannellini beans
+143,cape gooseberries 
+144,capers
+145,capsicum
+146,caramel 
+147,caraway seeds 
+148,cardamom
+149,carob 
+150,carrageen moss
+151,carrot
+152,cashew
+153,cassava 
+154,caster sugar
+155,catfish 
+156,caul fat
+157,cauliflower 
+158,cava
+159,caviar
+160,cavolo nero 
+161,cayenne pepper
+162,celeriac
+163,celery
+164,celery seeds
+165,champ 
+166,champagne 
+167,chanterelle mushrooms 
+168,chantilly cream 
+169,chapati flour 
+170,chapatis
+171,charcuterie 
+172,chard 
+173,charlotte potato
+174,chayote 
+175,cheddar cheese
+176,cheese
+177,cheese sauce
+178,cherry
+179,cherry brandy 
+180,cherry tomatoes 
+181,chervil 
+182,cheshire cheese 
+183,chestnut
+184,chestnut mushroom 
+185,chicken 
+186,chicken breast
+187,chicken leg 
+188,chicken liver 
+189,chicken soup
+190,chicken stock 
+191,chicken thigh 
+192,chicken wing
+193,chickpea
+194,chickpea flour
+195,chicory 
+196,chilli
+197,chilli oil
+198,chilli paste
+199,chilli powder 
+200,chilli sauce
+201,chinese cabbage 
+202,chinese mushrooms 
+203,chinese pancake 
+204,chipotle
+205,chips 
+206,chives
+207,chocolate 
+208,chocolate biscuit 
+209,chocolate brownies
+210,chocolate cake
+211,chocolate mousse
+212,chocolate truffle 
+213,chopped tomatoes
+214,chorizo 
+215,choux pastry
+216,christmas cake
+217,christmas pudding 
+218,beef chuck and blade
+219,chump 
+220,chutney 
+221,ciabatta
+222,cider 
+223,cinnamon
+224,citrus fruit
+225,clams 
+226,clarified butter
+227,clementine
+228,clotted cream 
+229,cloves
+230,cobnut
+231,cockles 
+232,cocktails 
+233,cocoa butter
+234,cocoa 
+235,coconut 
+236,coconut cream 
+237,coconut milk
+238,coconut oil 
+239,cod 
+240,cod roe 
+241,coffee
+242,coffee beans
+243,coffee essence
+244,coffee granules 
+245,coffee liqueur
+246,cognac
+247,cola
+248,coleslaw
+249,coley 
+250,collar
+251,compote 
+252,comte cheese
+253,condensed milk
+254,confectionery 
+255,coriander 
+256,coriander cress 
+257,coriander seeds 
+258,corn oil
+259,corn syrup
+260,corned beef 
+261,cornflour 
+262,cos lettuce 
+263,cottage cheese
+264,coulis
+265,courgette 
+266,court bouillon
+267,couscous
+268,couverture
+269,crab
+270,crab apple
+271,crackers
+272,cranberry 
+273,cranberry juice 
+274,cranberry sauce 
+275,crayfish
+276,cream 
+277,cream cheese
+278,cream liqueur 
+279,cream of tartar 
+280,cream soda
+281,creamed coconut 
+282,creme fraiche 
+283,crepe 
+284,cress 
+285,crispbread
+286,crisps
+287,croissant 
+288,croutons
+289,crudites
+290,crumble 
+291,crystallised ginger 
+292,cucumber
+293,cumberland sauce
+294,cumin 
+295,curacao 
+296,curd
+297,curd cheese 
+298,curly kale
+299,currant bread 
+300,currant 
+301,curry 
+302,curry leaves
+303,curry paste 
+304,curry powder
+305,custard 
+306,custard powder
+307,cuttlefish
+308,dab 
+309,daikon
+310,damsons 
+311,dandelion 
+312,danish blue 
+313,dark chocolate
+314,date
+315,demerara sugar
+316,demi-glace sauce
+317,dessicated coconut
+318,desiree potato
+319,digestive biscuit 
+320,dijon mustard 
+321,dill
+322,dim sum wrappers
+323,dolcelatte cheese 
+324,double cream
+325,double gloucester 
+326,dover sole
+327,dragon fruit
+328,dried apricot 
+329,dried cherries
+330,dried chilli
+331,dried fruit 
+332,dried mixed fruit 
+333,dry sherry
+334,duck
+335,duck confit 
+336,duck fat
+337,dulce de leche
+338,dumplings
+339,edam 
+340,eel
+341,egg
+342,egg liqueur
+343,egg wash 
+344,egg white
+345,egg yolk 
+346,elderberries 
+347,elderflower
+348,emmental cheese
+349,english muffin 
+350,english mustard
+351,escalope 
+352,evaporated milk
+353,exotic fruit
+354,farfalle
+355,fat 
+356,fennel
+357,fennel seeds
+358,fenugreek 
+359,feta cheese 
+360,fettuccine
+361,field mushroom
+362,fig 
+363,beef fillet 
+364,filo pastry 
+365,fish
+366,fish roe
+367,fish sauce
+368,five-spice powder 
+369,flageolet bean
+370,flaked almonds
+371,beef flank
+372,flapjacks 
+373,flatbread 
+374,flatfish
+375,fleur de sel
+376,flour 
+377,tortilla flour
+378,floury potato 
+379,flying fish 
+380,focaccia
+381,foie gras 
+382,fondant icing 
+383,fondant potatoes
+384,fontina cheese
+385,food colouring
+386,forced rhubarb
+387,fortified wine
+388,fragrant rice 
+389,frangipane
+390,frankfurter 
+391,french beans
+392,french bread
+393,french dressing 
+394,coriander fresh 
+395,tuna fresh
+396,fromage frais 
+397,fruit 
+398,fruit brandy
+399,fruit cake
+400,fruit juice 
+401,fruit salad 
+402,fudge 
+403,fusilli 
+404,galangal
+405,game
+406,gammon
+407,garam masala
+408,garlic
+409,garlic and herb cream c
+410,garlic bread
+411,gelatine
+412,ghee
+413,gherkin 
+414,giblets 
+415,gin 
+416,ginger
+417,ginger ale
+418,ginger beer 
+419,ginger biscuit
+420,gingerbread 
+421,glace cherries
+422,globe artichoke 
+423,glucose 
+424,gnocchi 
+425,goats cheese
+426,goats milk
+427,golden syrup
+428,goose 
+429,goose fat 
+430,gooseberry
+431,gorgonzola cheese 
+432,gouda cheese
+433,grain 
+434,grape juice 
+435,grapefruit
+436,grapefruit juice
+437,grapes
+438,grapeseed oil 
+439,gratin
+440,gravy 
+441,gravy browning
+442,green banana
+443,green bean
+444,green cabbage 
+445,green lentil
+446,green tea 
+447,greengages
+448,grey mullet 
+449,ground almonds
+450,ginger ground 
+451,grouse
+452,gruyere cheese
+453,guacamole 
+454,guava 
+455,guinea fowl 
+456,gurnard 
+457,habanero chillies 
+458,haddock 
+459,haggis
+460,hake
+461,halibut 
+462,halloumi cheese 
+463,ham 
+464,hare
+465,haricot bean
+466,harissa 
+467,hazelnut
+468,hazelnut oil
+469,heart 
+470,herbal liqueur
+471,herbal tea
+472,herbes de provence
+473,herb
+474,herring 
+475,hogget
+476,hoisin sauce
+477,hoki
+478,hollandaise sauce 
+479,hominy
+480,honey 
+481,honeycomb 
+482,horseradish 
+483,horseradish sauce 
+484,hot cross buns
+485,hummus
+486,hunza apricots
+487,ice cream
+488,iceberg lettuce
+489,icing
+490,icing sugar
+491,irish stout
+492,jaggery
+493,jam
+494,january King cabbage
+495,japanese pumpkin
+496,jelly
+497,jerk seasoning
+498,jersey Royal potatoes
+499,jerusalem artichoke
+500,john Dory
+501,jujube
+502,juniper berries
+503,jus
+504,kabana
+505,kale
+506,ketchup
+507,ketjap manis
+508,kidney
+509,kidney beans
+510,king Edward
+511,kipper
+512,kirsch
+513,kiwi fruit
+514,kohlrabi
+515,kumquat
+516,lager
+517,lamb
+518,lamb breast
+519,lamb chop
+520,lamb filet
+521,lamb kidney
+522,lamb loin
+523,lamb mince
+524,lamb neck
+525,lamb rump
+526,lamb shank
+527,lamb shoulder
+528,lamb stock
+529,lancashire
+530,langoustine
+531,lard
+532,lardons
+533,lasagne
+534,lasagne sheets
+535,laverbread
+536,leek
+537,leg of lamb
+538,lemon
+539,lemon balm
+540,lemon curd
+541,lemon juice
+542,lemon sole
+543,lemonade
+544,lemongrass
+545,lentils
+546,lettuce
+547,lime
+548,lime cordial
+549,lime juice
+550,lime leaves
+551,lime pickle
+552,ling
+553,lingonberry
+554,linguine
+555,liqueur
+556,liquorice
+557,little Gem lettuce
+558,liver
+559,loaf cake
+560,lobster
+561,loganberry
+562,long-grain rice
+563,lovage
+564,lychee
+565,macadamia
+566,macaroni
+567,macaroon
+568,mace
+569,mackerel
+570,madeira
+571,madeira cake
+572,madeleines
+573,maize
+574,malted grain bread
+575,manchego
+576,mandarin
+577,mangetout
+578,mango
+579,mango chutney
+580,mango juice
+581,mango pickle
+582,mangosteen
+583,maple syrup
+584,margarine
+585,marjoram
+586,marmalade
+587,marrow
+588,marrowfat peas
+589,marsala wine
+590,marshmallow
+591,marzipan
+592,mascarpone
+593,mashed potato
+594,matzo
+595,mayonnaise
+596,medlars
+597,megrim
+598,melon
+599,melon seeds
+600,meringue
+601,mesclun
+602,milk
+603,milk chocolate
+604,milkshake
+605,millet
+606,millet flour
+607,mince
+608,mince pies
+609,mincemeat
+610,mint
+611,mint sauce
+612,mirepoix
+613,mirin
+614,miso
+615,mixed berries
+616,mixed dried beans
+617,mixed fish
+618,mixed nuts
+619,mixed spice
+620,mixed spices
+621,molasses
+622,monks beard
+623,monkfish
+624,morel
+625,mortadella
+626,mozzarella
+627,muesli
+628,muffins
+629,mulberries
+630,mulled wine
+631,mung beans
+632,mushroom
+633,mussels
+634,mustard
+635,mustard cress
+636,mustard leaves
+637,mustard oil
+638,mustard powder
+639,mustard seeds
+640,mutton
+641,naan bread
+642,nachos
+643,nashi
+644,nasturtium
+645,nectarine
+646,nettle
+647,new potatoes
+648,nibbed almonds
+649,noodle soup
+650,noodles
+651,nori
+652,nougat
+653,nut
+654,nutmeg
+655,oatcakes
+656,oatmeal
+657,oats
+658,octopus
+659,offal
+660,oil
+661,oily fish
+662,okra
+663,olive
+664,olive oil
+665,onion
+666,orange
+667,orange juice
+668,orange liqueur
+669,oregano
+670,ouzo
+671,oxtail
+672,oyster
+673,oyster mushrooms
+674,oyster sauce
+675,paella
+676,pak choi
+677,palm sugar
+678,pancakes
+679,pancetta
+680,pandan leaves
+681,paneer
+682,panettone
+683,papaya
+684,pappardelle
+685,paprika
+686,parfait
+687,parmesan
+688,parsley
+689,parsnip
+690,partridge
+691,passata
+692,passion fruit
+693,passion fruit juice
+694,pasta
+695,pastrami
+696,pastry
+697,pasty
+698,pâté
+699,paw-paw
+700,pea shoots
+701,peach
+702,peanut butter
+703,peanut oil
+704,peanuts
+705,pear
+706,pearl barley
+707,peas
+708,pecan
+709,pecorino
+710,pectin
+711,peel
+712,penne
+713,pepper
+714,peppercorn
+715,pepperoni
+716,perch
+717,perry
+718,pesto
+719,pheasant
+720,piccalilli
+721,pickle
+722,pickled onion
+723,pie
+724,pig cheeks
+725,pigeon
+726,pigeon peas
+727,pike
+728,pine nut
+729,pineapple
+730,pineapple juice
+731,pink fir apple
+732,pink peppercorn
+733,pinto beans
+734,piri-piri
+735,pistachio
+736,pitta bread
+737,pizza
+738,plaice
+739,plain flour
+740,plantain
+741,plum
+742,polenta
+743,pollack
+744,pollock
+745,pomegranate
+746,pomegranate juice
+747,pomelo
+748,popcorn
+749,poppy seeds
+750,porcini
+751,pork
+752,pork belly
+753,pork chop
+754,pork fillet
+755,pork leg
+756,pork loin
+757,pork mince
+758,pork sausages
+759,pork shoulder
+760,pork spare rib
+761,port
+762,portobello mushrooms
+763,potato
+764,potato rösti
+765,potato wedges
+766,poultry
+767,poussin
+768,praline
+769,prawn
+770,prawn crackers
+771,preserved lemons
+772,preserves
+773,prosciutto
+774,prune
+775,prune juice
+776,pudding rice
+777,puff pastry
+778,pulled pork
+779,pumpernickel bread
+780,pumpkin
+781,pumpkin seed
+782,purple sprouting broccoli
+783,puy lentils
+784,quail
+785,quails egg
+786,quark
+787,quatre-épices
+788,quince
+789,quinoa
+790,rabbit
+791,rack of lamb
+792,radicchio
+793,radish
+794,rainbow chard
+795,rainbow trout
+796,raisins
+797,raita
+798,rapeseed oil
+799,ras-el-hanout
+800,raspberry
+801,raspberry jam
+802,ratafia biscuits
+803,ratatouille
+804,red cabbage
+805,red leicester
+806,red lentil
+807,red mullet
+808,red onion
+809,red rice
+810,red snapper
+811,red wine
+812,red wine vinegar
+813,redcurrant
+814,redcurrant jelly
+815,rennet
+816,rhubarb
+817,rib of beef
+818,rice
+819,rice flour
+820,rice noodles
+821,rice pudding
+822,rice vinegar
+823,rice wine
+824,ricotta
+825,rigatoni
+826,risotto
+827,risotto rice
+828,roast beef
+829,roast chicken
+830,roast lamb
+831,roast pork
+832,roast potatoes
+833,roast turkey
+834,roasted vegetables
+835,rock salmon
+836,rock salt
+837,rocket
+838,root beer
+839,root vegetable
+840,roquefort
+841,rose wine
+842,rosehip syrup
+843,rosemary
+844,rosewater
+845,rouille
+846,royal icing
+847,rum
+848,rump
+849,runner beans
+850,rye bread
+851,rye flour
+852,safflower oil
+853,saffron
+854,sage
+855,salad
+856,salad cream
+857,salad leaves
+858,salami
+859,salmon
+860,salsa
+861,salsify
+862,salt
+863,salt beef
+864,salt cod
+865,sambuca
+866,samphire
+867,sardine
+868,satsuma
+869,sauces
+870,saucisson
+871,sausage
+872,savory
+873,savoy cabbage
+874,scallop
+875,scotch bonnet chilli
+876,scrag
+877,sea bass
+878,sea bream
+879,sea salt
+880,sea trout
+881,seafood
+882,seasoning
+883,seaweed
+884,seeds
+885,self-raising flour
+886,semolina
+887,serrano ham
+888,sesame oil
+889,sesame seeds
+890,seville orange
+891,shallot
+892,sharon fruit
+893,shellfish
+894,sherry
+895,sherry vinegar
+896,shiitake mushroom
+897,shin
+898,shortbread
+899,shortcrust pastry
+900,sichuan pepper
+901,silverside
+902,single cream
+903,sirloin
+904,skate
+905,sloe
+906,sloe gin
+907,smoked cheese
+908,smoked fish
+909,smoked haddock
+910,smoked mackerel
+911,smoked salmon
+912,smoked trout
+913,snapper
+914,soba noodles
+915,soda
+916,soda bread
+917,sole
+918,sorbet
+919,sorrel
+920,soup
+921,sourdough bread
+922,soured cream
+923,soy sauce
+924,soya beans
+925,soya flour
+926,soya milk
+927,soya oil
+928,spaghetti
+929,spaghetti squash
+930,sparkling wine
+931,spelt
+932,spelt flour
+933,spices
+934,spinach
+935,split peas
+936,sponge cake
+937,spring greens
+938,spring onion
+939,spring roll wrappers
+940,squash
+941,squid
+942,star anise
+943,starfruit
+944,steak
+945,stem ginger
+946,stew
+947,stewing lamb
+948,stilton
+949,stock
+950,straw mushroom
+951,strawberry
+952,strawberry jam
+953,strega liqueur
+954,string beans
+955,strong white flour
+956,stuffing
+957,sucralose
+958,suet
+959,sugar
+960,sugar-snap peas
+961,sultanas
+962,sumac
+963,summer cabbage
+964,summer fruit
+965,sunflower oil
+966,sunflower seed
+967,sushi rice
+968,swede
+969,sweet potato
+970,sweet sherry
+971,sweetbread
+972,sweetcorn
+973,swiss chard
+974,swiss rolls and roulades
+975,swordfish
+976,syrup
+977,t-bone steak
+978,tabasco
+979,taco
+980,tagliatelle
+981,tahini
+982,taleggio
+983,tamari
+984,tamarillo
+985,tamarind
+986,tangerine
+987,tapenade
+988,tapioca
+989,taro
+990,tarragon
+991,tartare sauce
+992,tayberry
+993,tea
+994,tempura
+995,tequila
+996,teriyaki
+997,teriyaki sauce
+998,terrine
+999,thai basil
+1000,thyme
+1001,tilapia
+1002,tinned tuna
+1003,toffee
+1004,tofu
+1005,tomato
+1006,tomato chutney
+1007,tomato juice
+1008,tomato purée
+1009,tongue
+1010,tonic
+1011,topside
+1012,tortellini
+1013,tripe
+1014,trout
+1015,truffle
+1016,truffle oil
+1017,turbot
+1018,turkey
+1019,turkey breast
+1020,turkey mince
+1021,turkish delight
+1022,turmeric
+1023,turnip
+1024,unleavened bread
+1025,vacherin
+1026,vanilla essence
+1027,vanilla extract
+1028,vanilla pod
+1029,veal
+1030,vegetable oil
+1031,vegetable shortening
+1032,vegetable stock
+1033,vegetables
+1034,vegetarian sausage
+1035,venison
+1036,verjus
+1037,vermicelli
+1038,vermouth
+1039,vine leaves
+1040,vinegar
+1041,vodka
+1042,vodka cocktail
+1043,waffles
+1044,walnut
+1045,walnut oil
+1046,wasabi
+1047,water chestnut
+1048,watercress
+1049,watermelon
+1050,waxy potato
+1051,webbs lettuce
+1052,wensleydale
+1053,wheatgerm
+1054,whelk
+1055,whipping cream
+1056,whisky
+1057,whisky cocktail
+1058,whisky liqueur
+1059,white bread
+1060,white cabbage
+1061,white chocolate
+1062,white fish
+1063,white pepper
+1064,white wine
+1065,white wine vinegar
+1066,whitebait
+1067,whitecurrant
+1068,whiting
+1069,wholegrain mustard
+1070,wholemeal bread
+1071,wholemeal flour
+1072,wild duck
+1073,wild garlic
+1074,wild mushrooms
+1075,wild rice
+1076,wine
+1077,winkles
+1078,wood pigeon
+1079,worcestershire sauce
+1080,wraps
+1081,yam
+1082,yeast
+1083,yellow lentil
+1084,yoghurt
+1085,zander
+1086,zest

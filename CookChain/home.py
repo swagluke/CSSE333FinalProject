@@ -9,8 +9,15 @@ config =  {
 }
 class HelloWorld(object):
    	@cherrypy.expose
-    def login(self):
-        return "Hello World!"
+    def login(self,username,password):
+        cnx = mysql.connector.connect(**config)
+        cursor = cnx.cursor()
+        args = (username,password,'')
+        cursor.callproc('sp_check_password',args)
+        if(args[2] == 1):
+            return "success"
+        else:
+            return "fail"
     @cherrypy.expose
     def create(self,username,password):
     	cnx = mysql.connector.connect(**config)

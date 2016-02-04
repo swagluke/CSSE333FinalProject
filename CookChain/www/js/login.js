@@ -15,7 +15,7 @@ $(function(){
     function login() {
         
         var data = 
-            {email: $("#email").val(), 
+            {username: $("#email").val(), 
             password: $("#password").val()};
         //remove this   
         //alert("Email: " + data['email'] + "\nPassword: " + data['pass']);
@@ -24,14 +24,14 @@ $(function(){
             url: domain + '/login',
             type: 'POST',
             data: data, //might need to change 
-            success: loginResponse
+            //success: function(result){
+            //if(result=='success') {
         });
+        window.location.href = "search.html";
     }
-    
-    
-    
+ 
     function loginResponse(res) {
-    	if(res['success']) {
+    	if(res=='success') {
     		window.location.href = "search.html";
     	} else {
     		$("#password").val('');
