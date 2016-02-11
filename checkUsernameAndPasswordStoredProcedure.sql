@@ -1,0 +1,59 @@
+DELIMITER $$
+
+USE innodb$$
+
+#SELECT @hello$$
+#CALL sp_check_password('lamberce@rose-hulman.edu','password', @hello)$$
+#SELECT @hello$$
+
+DROP PROCEDURE IF EXISTS sp_check_password$$
+
+CREATE PROCEDURE sp_check_password
+	(IN p_username VARCHAR(30),
+     IN p_password VARCHAR(30),
+     OUT isValid INT)
+BEGIN
+	DECLARE ERR_NO_PASSWORD_PROVIDED CONDITION FOR SQLSTATE '45000';
+	DECLARE ERR_NO_USERNAME_PROVIDED CONDITION FOR SQLSTATE '45000';
+    DECLARE ERR_INVALID_USERNAME CONDITION FOR SQLSTATE '45000';
+    DECLARE ERR_INCORRECT_PASSWORD CONDITION FOR SQLSTATE '45000';
+    DECLARE ERROR_MESSAGE VARCHAR(100);
+	DECLARE s VARCHAR(30);
+    DECLARE p VARCHAR(30);
+	DECLARE EXIT HANDLER FOR SQLEXCEPTION
+		BEGIN
+			ROLLBACK;
+			SELECT ERROR_MESSAGE;
+		END;
+    
+    SET isValid = 0;
+	IF(p_password IS NULL) THEN
+		SET ERROR_MESSAGE = 'No pasword provided';
+        SIGNAL ERR_NO_PASSWORD_PROVIDED;
+	END IF;
+    
+    IF(p_username IS NULL) THEN
+		SET ERROR_MESSAGE = 'No username provided';
+        SIGNAL ERR_NO_USERNAME_PROVIDED;
+	END IF;
+    
+    SELECT password INTO p FROm Users WHERE Users.username = p_username;
+    
+    
+    IF(p IS NULL) THEN
+		SET ERROR_MESSAGE = 'Invalid username';
+        SIGNAL ERR_INVALID_USERNAME;
+	END IF;
+    
+    IF(p_password = p) THEN
+		SELECT 'Valid user';
+		SET isValid=1;
+	ELSE
+		SET ERROR_MESSAGE = 'Incorrect password';
+		SIGNAL ERR_INCORRECT_PASSWORD;
+	END IF;
+END$$
+
+DELIMITER ;
+
+
